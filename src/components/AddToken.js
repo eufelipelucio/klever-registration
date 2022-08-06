@@ -16,13 +16,15 @@ export default function AddToken() {
     const items = JSON.parse(localStorage.getItem('items')) || [];
 
     const token = items.map(item => item.token === tokenName ? true: false);
-  
+    
+    
+
     tokenName.length > 0 && balance.length > 0 ?
     token.includes(true) ? alert('Token já existe') :
       items.push({
         id: crypto.randomBytes(30).toString('hex'),
-        token: tokenName.toUpperCase(),
-        balance: balance.toUpperCase(),
+        token: tokenName,
+        balance: balance,
       }) && back() : alert('Preencha todos os campos');
 
     localStorage.setItem('items', JSON.stringify(items));
@@ -42,14 +44,12 @@ export default function AddToken() {
       <form className='form-add'>
         <label>Token</label>
         <input onChange={(e) => {
-          setTokenName(e.target.value)
-          console.log(tokenName)
+          setTokenName(e.target.value.toUpperCase())
         }} type="text" id='token' name='token' required />
 
         <label>Balance</label>
         <input onChange={(e) => {
-          setBalance(e.target.value)
-          console.log(balance)
+          setBalance(e.target.value.toUpperCase())
         }} type="number"  id='balance' name='balance' required />
 
         <button onClick={setItems} type='submit'>Save</button>
