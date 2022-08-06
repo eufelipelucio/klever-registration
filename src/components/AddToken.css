@@ -1,0 +1,53 @@
+.add-token-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-add{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.add-token-title{
+    display: flex;  
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+    align-items: center;
+    width:400px;
+    justify-content: space-between;
+    color: #fff;
+}
+.add-token-title button{
+    padding:8px 10px;
+    width:100px;
+    border-radius: 5px;
+    background-color: #808080;
+    color: #fff;
+    font-size: 18px;
+}
+.form-add input{
+    border-radius: 5px;
+    outline: none;
+    border:none;
+    margin-bottom: 15px;
+    margin-top:5px;
+    font-size:22px;
+    font-weight: bold;
+    padding:5px;
+
+}
+.form-add button{
+    background-color: #A933B5;
+    color:#fff;
+    padding:8px 10px;
+    width:100px;
+    border-radius: 5px;
+    align-self: flex-end;
+    font-size: 18px;
+
+}

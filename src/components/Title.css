@@ -1,0 +1,20 @@
+:root{
+    --color-primary: #fff;
+    --color-secondary: #A933B5;
+    --color-tertiary: #000;
+}
+
+
+.title-container{
+    display: flex;
+    justify-content: center;
+    margin-top:3rem;
+    width: 100%;
+}
+.Logo-klever{
+    width:120px;
+}
+
+
+
+

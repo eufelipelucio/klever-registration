@@ -1,0 +1,65 @@
+.edit-token-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-edit{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.edit-token-title{
+    display: flex;  
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+    align-items: center;
+    width:400px;
+    justify-content: space-between;
+    color: #fff;
+}
+.edit-token-title button{
+    padding:8px 10px;
+    width:100px;
+    border-radius: 5px;
+    background-color: #808080;
+    color: #fff;
+    font-size: 18px;
+}
+.form-edit input{
+    border-radius: 5px;
+    outline: none;
+    border:none;
+    margin-bottom: 15px;
+    margin-top:5px;
+    font-size:22px;
+    font-weight: bold;
+    padding:5px;
+
+}
+.form-edit button{
+    color:#fff;
+    padding:8px 10px;
+    width:100px;
+    border-radius: 5px;
+    font-size: 18px;
+    border:none;
+    outline: none;
+}
+.buttons-edit{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.btn-remove{
+    background-color:#F11900;
+    align-seft: left;
+}
+.btn-edit{
+    background-color:#A933B5;
+    right:0;
+}

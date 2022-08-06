@@ -1,0 +1,30 @@
+.table-token {
+    width:380px;
+    color: #fff;
+    margin: 0 auto;
+}
+.table-token table{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.title-table{
+    display: flex;
+    justify-content: space-between;
+    margin:0 1rem;
+}
+.info-table{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: bold;
+    align-items: center;
+}
+.img-edit-token{
+    width:50px;
+    margin-top:5px;
+}
+.info-table td{
+    display: flex;
+    align-items: center;
+}
